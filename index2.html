@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>temp2:index page</title>
+	<link href="style2.css" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="menulist">
+				<ul class="menu">
+					<li class="red"><a href="#">Homepage</a></li>
+					<li class="yellow"><a href="#">Services</a></li>
+					<li class="blue"><a href="#">Products</a></li>
+					<li class="green"><a href="#">About</a></li>
+					<li class="violet"><a href="#">Contacts</a></li>
+				</ul>
+			</div>
+			<div class="logo">
+				<img src="images/img06.jpg" alt="logo" />
+				<div class="bannerText">
+					<a href="#">Enter</a>
+					<a href="#">By Templates</a>
+				</div>
+			</div>
+		</div>
+		<div class="middlewrapper">
+			<div class="leftwrapper">
+				<div class="box box1">
+					<h2>Left Menu Heading 1</h2>
+					<ul class="leftmenu1">
+						<li><a href="#">Homepage</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div>
+				<div class="box box2">
+					<h2>Left Menu Heading 2</h2>
+					<ul class="leftmenu2">
+						<li><a href="#">Homepage</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="rightwrapper">
+				<h1><label>Wellcome to Enter</label></h1>
+				<hr/>
+				<div class="">
+				
+				</div>
+				<div class="">
+				
+				</div>
+			</div>	
+			<div class="clearall"></div>		
+		</div>
+		<div class="footer">
+			<label>@ Copyright reserved to MDWorks</label>
+		</div>
+	</div>
+	<script type="text/javascript">
+			$( "box1 >ul > li" ).each(function( index ) {
+			console.log( index + ": " + $( this ).text() );
+	});
+	</script>
+</body>
+</html>
